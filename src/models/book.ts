@@ -1,6 +1,6 @@
 import { DataTypes, Model, Optional } from 'sequelize';
 import sequelize from '../config/database';
-import { IBook } from '../interface/book.interface';
+import { IBook } from '../interface/book.interfacee';
 
 interface BookCreationAttributes extends Optional<IBook, 'id' | 'createdAt' | 'updatedAt'> {}
 

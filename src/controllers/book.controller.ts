@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import Book from '../models/book';
-import { IBookResponse, IBooksListResponse, ICreateBookRequest, IErrorResponse, IUpdateBookRequest } from '../interface/book.interface';
+import { IBookResponse, IBooksListResponse, ICreateBookRequest, IErrorResponse, IUpdateBookRequest } from '../interface/book.interfacee';
 import { createBookSchema, updateBookSchema } from '../validations/book.validation';
 import { RequestExt } from '../interface';
 

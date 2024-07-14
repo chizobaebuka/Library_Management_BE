@@ -14,3 +14,9 @@ export interface RequestExt extends Request {
 
     book?: Book;
 }
+
+export interface ICore {
+    id: number;
+    createdAt: Date;
+    updatedAt: Date;
+}

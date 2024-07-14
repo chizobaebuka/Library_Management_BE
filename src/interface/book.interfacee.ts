@@ -1,8 +1,4 @@
-export interface ICore {
-    id: number;
-    createdAt: Date;
-    updatedAt: Date;
-}
+import { ICore } from ".";
 
 export interface IBook extends ICore {
     id: number;
