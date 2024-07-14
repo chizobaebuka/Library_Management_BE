@@ -1,11 +1,15 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import sequelize from './config/database';
+import userRoutes from './routes/user.route'
 
 dotenv.config(); // Load environment variables
 
 const app = express();
 app.use(express.json());
+
+app.use('/api/users', userRoutes);
+// app.use('/api', bookRoutes);
 
 const PORT = process.env.PORT || 4000;
 
